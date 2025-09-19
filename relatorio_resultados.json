@@ -1,0 +1,199 @@
+{
+  "maquina": {
+    "processador": "AMD Ryzen™ 5 3500U",
+    "memoria_gb": "12,0 GB",
+    "sistema_operacional": "Ubuntu 24.04.3 LTS"
+  },
+  "resultados": {
+    "Bubble Sort": [
+      {
+        "valor": 0.011682510375976562,
+        "unidade": "ms"
+      },
+      {
+        "valor": 0.2574920654296875,
+        "unidade": "ms"
+      },
+      {
+        "valor": 33.51426124572754,
+        "unidade": "ms"
+      },
+      {
+        "valor": 1.0347402095794678,
+        "unidade": "s"
+      },
+      {
+        "valor": 3.9682276248931885,
+        "unidade": "s"
+      },
+      {
+        "valor": 95.62764310836792,
+        "unidade": "s"
+      },
+      {
+        "valor": 421.0301926136017,
+        "unidade": "s"
+      }
+    ],
+    "Selection Sort": [
+      {
+        "valor": 0.007867813110351562,
+        "unidade": "ms"
+      },
+      {
+        "valor": 0.13709068298339844,
+        "unidade": "ms"
+      },
+      {
+        "valor": 14.330387115478516,
+        "unidade": "ms"
+      },
+      {
+        "valor": 396.024227142334,
+        "unidade": "ms"
+      },
+      {
+        "valor": 1.486757516860962,
+        "unidade": "s"
+      },
+      {
+        "valor": 37.08264374732971,
+        "unidade": "s"
+      },
+      {
+        "valor": 163.0784032344818,
+        "unidade": "s"
+      }
+    ],
+    "Insertion Sort": [
+      {
+        "valor": 0.009298324584960938,
+        "unidade": "ms"
+      },
+      {
+        "valor": 0.10776519775390625,
+        "unidade": "ms"
+      },
+      {
+        "valor": 15.257120132446289,
+        "unidade": "ms"
+      },
+      {
+        "valor": 412.5032424926758,
+        "unidade": "ms"
+      },
+      {
+        "valor": 1.6074962615966797,
+        "unidade": "s"
+      },
+      {
+        "valor": 42.14197850227356,
+        "unidade": "s"
+      },
+      {
+        "valor": 207.4062442779541,
+        "unidade": "s"
+      }
+    ],
+    "Merge Sort": [
+      {
+        "valor": 0.018358230590820312,
+        "unidade": "ms"
+      },
+      {
+        "valor": 0.10514259338378906,
+        "unidade": "ms"
+      },
+      {
+        "valor": 1.2912750244140625,
+        "unidade": "ms"
+      },
+      {
+        "valor": 8.116722106933594,
+        "unidade": "ms"
+      },
+      {
+        "valor": 17.44842529296875,
+        "unidade": "ms"
+      },
+      {
+        "valor": 101.81641578674316,
+        "unidade": "ms"
+      },
+      {
+        "valor": 232.4674129486084,
+        "unidade": "ms"
+      }
+    ],
+    "Quick Sort": [
+      {
+        "valor": 0.013113021850585938,
+        "unidade": "ms"
+      },
+      {
+        "valor": 0.07510185241699219,
+        "unidade": "ms"
+      },
+      {
+        "valor": 0.7622241973876953,
+        "unidade": "ms"
+      },
+      {
+        "valor": 4.63414192199707,
+        "unidade": "ms"
+      },
+      {
+        "valor": 10.484457015991211,
+        "unidade": "ms"
+      },
+      {
+        "valor": 59.880971908569336,
+        "unidade": "ms"
+      },
+      {
+        "valor": 135.80822944641113,
+        "unidade": "ms"
+      }
+    ]
+  },
+  "complexidades": {
+    "Bubble Sort": {
+      "melhor": "O(n)",
+      "medio": "O(n^2)",
+      "pior": "O(n^2)"
+    },
+    "Selection Sort": {
+      "melhor": "O(n^2)",
+      "medio": "O(n^2)",
+      "pior": "O(n^2)"
+    },
+    "Insertion Sort": {
+      "melhor": "O(n)",
+      "medio": "O(n^2)",
+      "pior": "O(n^2)"
+    },
+    "Merge Sort": {
+      "melhor": "O(n log n)",
+      "medio": "O(n log n)",
+      "pior": "O(n log n)"
+    },
+    "Quick Sort": {
+      "melhor": "O(n log n)",
+      "medio": "O(n log n)",
+      "pior": "O(n^2)"
+    }
+  },
+  "graficos": {
+    "individuais": [
+      "grafico_Bubble_Sort.png",
+      "grafico_Selection_Sort.png",
+      "grafico_Insertion_Sort.png",
+      "grafico_Merge_Sort.png",
+      "grafico_Quick_Sort.png"
+    ],
+    "comparativo": "grafico_comparativo.png"
+  },
+  "referencias": [
+    "Aula 06 - Algoritmos de Ordenação - Prof. André Chaves Lima"
+  ]
+}

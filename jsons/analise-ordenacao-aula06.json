@@ -1,0 +1,411 @@
+{
+  "trabalho": {
+    "objetivo": "Análise empírica dos algoritmos de ordenação estudados na Aula 06.",
+    "algoritmos_incluidos": [
+      "Bubble Sort",
+      "Selection Sort",
+      "Insertion Sort",
+      "Merge Sort",
+      "Quick Sort",
+      "Counting Sort",
+      "Bucket Sort"
+    ],
+    "data_geracao": "2025-09-18 03:54:54",
+    "fuso_horario": "America/Sao_Paulo"
+  },
+  "maquina": {
+    "processador": "",
+    "memoria_gb": null,
+    "sistema_operacional": "",
+    "observacoes": ""
+  },
+  "tamanhos_obrigatorios": [
+    10,
+    100,
+    1000,
+    5000,
+    10000,
+    50000,
+    100000
+  ],
+  "algoritmos": [
+    {
+      "nome": "Bubble Sort",
+      "implementacao": "",
+      "complexidade": {
+        "melhor": "O(n)",
+        "medio": "O(n^2)",
+        "pior": "O(n^2)"
+      },
+      "execucoes": [
+        {
+          "n": 10,
+          "tempos_ms": [],
+          "media_ms": null,
+          "tentativas": 0
+        },
+        {
+          "n": 100,
+          "tempos_ms": [],
+          "media_ms": null,
+          "tentativas": 0
+        },
+        {
+          "n": 1000,
+          "tempos_ms": [],
+          "media_ms": null,
+          "tentativas": 0
+        },
+        {
+          "n": 5000,
+          "tempos_ms": [],
+          "media_ms": null,
+          "tentativas": 0
+        },
+        {
+          "n": 10000,
+          "tempos_ms": [],
+          "media_ms": null,
+          "tentativas": 0
+        },
+        {
+          "n": 50000,
+          "tempos_ms": [],
+          "media_ms": null,
+          "tentativas": 0
+        },
+        {
+          "n": 100000,
+          "tempos_ms": [],
+          "media_ms": null,
+          "tentativas": 0
+        }
+      ],
+      "n_maximo": null
+    },
+    {
+      "nome": "Selection Sort",
+      "implementacao": "",
+      "complexidade": {
+        "melhor": "O(n^2)",
+        "medio": "O(n^2)",
+        "pior": "O(n^2)"
+      },
+      "execucoes": [
+        {
+          "n": 10,
+          "tempos_ms": [],
+          "media_ms": null,
+          "tentativas": 0
+        },
+        {
+          "n": 100,
+          "tempos_ms": [],
+          "media_ms": null,
+          "tentativas": 0
+        },
+        {
+          "n": 1000,
+          "tempos_ms": [],
+          "media_ms": null,
+          "tentativas": 0
+        },
+        {
+          "n": 5000,
+          "tempos_ms": [],
+          "media_ms": null,
+          "tentativas": 0
+        },
+        {
+          "n": 10000,
+          "tempos_ms": [],
+          "media_ms": null,
+          "tentativas": 0
+        },
+        {
+          "n": 50000,
+          "tempos_ms": [],
+          "media_ms": null,
+          "tentativas": 0
+        },
+        {
+          "n": 100000,
+          "tempos_ms": [],
+          "media_ms": null,
+          "tentativas": 0
+        }
+      ],
+      "n_maximo": null
+    },
+    {
+      "nome": "Insertion Sort",
+      "implementacao": "",
+      "complexidade": {
+        "melhor": "O(n)",
+        "medio": "O(n^2)",
+        "pior": "O(n^2)"
+      },
+      "execucoes": [
+        {
+          "n": 10,
+          "tempos_ms": [],
+          "media_ms": null,
+          "tentativas": 0
+        },
+        {
+          "n": 100,
+          "tempos_ms": [],
+          "media_ms": null,
+          "tentativas": 0
+        },
+        {
+          "n": 1000,
+          "tempos_ms": [],
+          "media_ms": null,
+          "tentativas": 0
+        },
+        {
+          "n": 5000,
+          "tempos_ms": [],
+          "media_ms": null,
+          "tentativas": 0
+        },
+        {
+          "n": 10000,
+          "tempos_ms": [],
+          "media_ms": null,
+          "tentativas": 0
+        },
+        {
+          "n": 50000,
+          "tempos_ms": [],
+          "media_ms": null,
+          "tentativas": 0
+        },
+        {
+          "n": 100000,
+          "tempos_ms": [],
+          "media_ms": null,
+          "tentativas": 0
+        }
+      ],
+      "n_maximo": null
+    },
+    {
+      "nome": "Merge Sort",
+      "implementacao": "",
+      "complexidade": {
+        "melhor": "O(n log n)",
+        "medio": "O(n log n)",
+        "pior": "O(n log n)"
+      },
+      "execucoes": [
+        {
+          "n": 10,
+          "tempos_ms": [],
+          "media_ms": null,
+          "tentativas": 0
+        },
+        {
+          "n": 100,
+          "tempos_ms": [],
+          "media_ms": null,
+          "tentativas": 0
+        },
+        {
+          "n": 1000,
+          "tempos_ms": [],
+          "media_ms": null,
+          "tentativas": 0
+        },
+        {
+          "n": 5000,
+          "tempos_ms": [],
+          "media_ms": null,
+          "tentativas": 0
+        },
+        {
+          "n": 10000,
+          "tempos_ms": [],
+          "media_ms": null,
+          "tentativas": 0
+        },
+        {
+          "n": 50000,
+          "tempos_ms": [],
+          "media_ms": null,
+          "tentativas": 0
+        },
+        {
+          "n": 100000,
+          "tempos_ms": [],
+          "media_ms": null,
+          "tentativas": 0
+        }
+      ],
+      "n_maximo": null
+    },
+    {
+      "nome": "Quick Sort",
+      "implementacao": "",
+      "complexidade": {
+        "melhor": "O(n log n)",
+        "medio": "O(n log n)",
+        "pior": "O(n^2)"
+      },
+      "execucoes": [
+        {
+          "n": 10,
+          "tempos_ms": [],
+          "media_ms": null,
+          "tentativas": 0
+        },
+        {
+          "n": 100,
+          "tempos_ms": [],
+          "media_ms": null,
+          "tentativas": 0
+        },
+        {
+          "n": 1000,
+          "tempos_ms": [],
+          "media_ms": null,
+          "tentativas": 0
+        },
+        {
+          "n": 5000,
+          "tempos_ms": [],
+          "media_ms": null,
+          "tentativas": 0
+        },
+        {
+          "n": 10000,
+          "tempos_ms": [],
+          "media_ms": null,
+          "tentativas": 0
+        },
+        {
+          "n": 50000,
+          "tempos_ms": [],
+          "media_ms": null,
+          "tentativas": 0
+        },
+        {
+          "n": 100000,
+          "tempos_ms": [],
+          "media_ms": null,
+          "tentativas": 0
+        }
+      ],
+      "n_maximo": null
+    },
+    {
+      "nome": "Counting Sort",
+      "implementacao": "",
+      "complexidade": {
+        "melhor": "O(n+k)",
+        "medio": "O(n+k)",
+        "pior": "O(n+k)"
+      },
+      "execucoes": [
+        {
+          "n": 10,
+          "tempos_ms": [],
+          "media_ms": null,
+          "tentativas": 0
+        },
+        {
+          "n": 100,
+          "tempos_ms": [],
+          "media_ms": null,
+          "tentativas": 0
+        },
+        {
+          "n": 1000,
+          "tempos_ms": [],
+          "media_ms": null,
+          "tentativas": 0
+        },
+        {
+          "n": 5000,
+          "tempos_ms": [],
+          "media_ms": null,
+          "tentativas": 0
+        },
+        {
+          "n": 10000,
+          "tempos_ms": [],
+          "media_ms": null,
+          "tentativas": 0
+        },
+        {
+          "n": 50000,
+          "tempos_ms": [],
+          "media_ms": null,
+          "tentativas": 0
+        },
+        {
+          "n": 100000,
+          "tempos_ms": [],
+          "media_ms": null,
+          "tentativas": 0
+        }
+      ],
+      "n_maximo": null
+    },
+    {
+      "nome": "Bucket Sort",
+      "implementacao": "",
+      "complexidade": {
+        "melhor": "O(n+k)",
+        "medio": "O(n+k)",
+        "pior": "O(n^2)"
+      },
+      "execucoes": [
+        {
+          "n": 10,
+          "tempos_ms": [],
+          "media_ms": null,
+          "tentativas": 0
+        },
+        {
+          "n": 100,
+          "tempos_ms": [],
+          "media_ms": null,
+          "tentativas": 0
+        },
+        {
+          "n": 1000,
+          "tempos_ms": [],
+          "media_ms": null,
+          "tentativas": 0
+        },
+        {
+          "n": 5000,
+          "tempos_ms": [],
+          "media_ms": null,
+          "tentativas": 0
+        },
+        {
+          "n": 10000,
+          "tempos_ms": [],
+          "media_ms": null,
+          "tentativas": 0
+        },
+        {
+          "n": 50000,
+          "tempos_ms": [],
+          "media_ms": null,
+          "tentativas": 0
+        },
+        {
+          "n": 100000,
+          "tempos_ms": [],
+          "media_ms": null,
+          "tentativas": 0
+        }
+      ],
+      "n_maximo": null
+    }
+  ]
+}
