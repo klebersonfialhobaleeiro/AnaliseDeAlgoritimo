@@ -106,7 +106,7 @@ def medir_tempo(funcao, arr):
 def main():
     
     # 10, 100, 1000, 5000, 10000, 50000, 100000
-    arquivos = [f"jsons/entrada_{n}.json" for n in [10, 100]]
+    arquivos = [f"jsons/entrada_{n}.json" for n in [10, 100, 1000, 5000, 10000, 50000, 100000]]
     algoritmos = [
         ("Bubble Sort", bubble_sort, {"melhor":"O(n)","medio":"O(n^2)","pior":"O(n^2)"}),
         ("Selection Sort", selection_sort, {"melhor":"O(n^2)","medio":"O(n^2)","pior":"O(n^2)"}),
